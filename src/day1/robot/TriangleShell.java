@@ -4,16 +4,16 @@ import org.jointheleague.graphical.robot.Robot;
 
 public class TriangleShell {
 
-	// 1. Create a new Robot
-
+	// 1. Create a new robot
+	Robot vb = new Robot();
 	
 	void go() {
-		drawTriangle(100); // 3. delete this line (used only for testing)
+		
 
 		// 6. Make the robot go as fast as possible
 
 		// 4. make a variable to hold the length of the triangle and set it to 50
-
+int length = 50; 
 		// 7. Do the following (up to step 10) 60 times
 
 			// 9. Change the color of the pen to a random color
@@ -28,7 +28,8 @@ public class TriangleShell {
 
 	/* 2. fill in the method below to draw a triangle. Use the length variable for the size of the triangle. */
 	private void drawTriangle(int length) {
-		
+vb.penDown();
+for (int i =0; i < 3 ; i++) { 
 		
 		
 	}
